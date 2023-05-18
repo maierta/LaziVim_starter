@@ -15,6 +15,6 @@ end
 
 -- SendTerm
 -- map("n", "<M-S-CR>", "<Plug>Send ih", { desc = "Send Region" })
-vim.keymap.set("n", "<M-S-CR>", "<Plug>Sendih", { desc = "Send Region" })
+vim.keymap.set("n", "<M-S-CR>", "<Plug>Sendih]h", { desc = "Send Region" })
 map("i", "<S-return>", "<esc><Plug>SendLine<cr>i", { desc = "Send Line" })
 map("n", "<S-return>", "<Plug>SendLine<cr>", { desc = "Send Line" })
